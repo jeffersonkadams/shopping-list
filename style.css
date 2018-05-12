@@ -1,12 +1,54 @@
 /* feff9c for sticky note color, 000F55 for blue pen ink*/
 body{
-  /* background-image: url("yellow-wood-table-background.jpg");
+  background-image: url("yellow-wood-table-background.jpg");
   width: 100%;
   height: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
 }
 body h1{
   /* text-align: center; */
+}
+.container {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #000F55;
+  text-align: center;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  min-height: 720px;
+  width: 750px;
+  background-color: #feff9c;
+}
+#priceTotalBox p{
+  font-size: 28px;
+}
+#newItem, #newItemPrice {
+  height: auto;
+  width: 225px;
+  font-size: 28px;
+  border: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+#addNewItem{
+  padding-top: 0px;
+  height: auto;
+  width: 225px;
+  font-size: 28px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 10px;
+}
+#newItem, #newItemPrice, #addNewItem{
+  color: #000F55;
+  font-family: 'Gloria Hallelujah', cursive;
+  background-color: rgba(254,255,156, 0.75);
+  vertical-align: middle;
+}
+ul{
+  list-style-type: none;
+  font-size: 28px;
 }
